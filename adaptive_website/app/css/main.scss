@@ -122,3 +122,29 @@ header {
     border-right: 100vw solid #fff;
   }
 }
+
+.features {
+  margin-top: 20px;
+  padding-bottom: 90px;
+  border-bottom: 1px solid silver;
+
+  .block {
+    @extend .flex;
+    align-items: center;
+    color: #808080;
+
+    .info {
+      max-width: 500px;
+
+      h2 {
+        font-size: 45px;
+        color: #000;
+        font-weight: 700;
+
+        .dot {
+          color: #de173f;
+        }
+      }
+    }
+  }
+}
